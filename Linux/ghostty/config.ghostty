@@ -1,0 +1,29 @@
+
+command = /bin/zsh
+
+window-width = 132
+window-height = 32
+
+background = #000000
+background-opacity = 0.85
+background-blur = 16
+
+font-thicken = true
+font-thicken-strength = 127
+
+# window-decoration = false
+gtk-titlebar = false
+
+# theme = TokyoNight Night
+theme = Catppuccin Mocha
+window-theme = ghostty
+bold-is-bright = true
+
+clipboard-read = allow
+# clipboard-write = allow
+
+# copy-on-select = clipboard
+mouse-hide-while-typing = true
+
+confirm-close-surface = false
+# quit-after-last-window-closed = true
