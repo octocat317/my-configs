@@ -17,6 +17,8 @@ vim.keymap.set('n', '<F9>', function()
     vim.cmd('vsplit | term cargo run')
   elseif ft == 'javascript' then
     vim.cmd('vsplit | term node "' .. name .. '"')
+  elseif ft == 'lua' then
+    vim.cmd('vsplit | term lua "' .. name .. '"')
   elseif ft == 'java' then
     -- Compiles the file, changes to its directory, and runs the class name
     vim.cmd('vsplit | term javac "' .. name .. '" && cd "' .. dir .. '" && java "' .. class .. '"')
